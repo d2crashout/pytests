@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <title>🦜 Polyglot - Piratical PyScript</title>
-      <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css">
-      <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
-  </head>
-  <body>
-    <h1>Polyglot 🦜 💬 🇬🇧 ➡️ 🏴‍☠️</h1>
-    <p>Translate English into Pirate speak...</p>
-    <input type="text" id="english" placeholder="Type English here..." />
-    <button py-click="translate_english">Translate</button>
-    <p id="output"></p>
-    <script type="py" src="./main.py" config="./pyscript.json"></script>
-  </body>
+<head>
+    <title>Rock-Paper-Scissors-Lizard-Spock</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+
+<h2>Play Rock-Paper-Scissors-Lizard-Spock</h2>
+
+<input id="user-input" type="text" placeholder="Enter your choice (e.g. rock)">
+<button py-click="get_input()">Play</button>
+
+<pre id="output"></pre>
+<script type="py" src="./main.py" config="./pyscript.json"></script>
+</body>
 </html>
